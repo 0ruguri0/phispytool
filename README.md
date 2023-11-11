@@ -10,7 +10,11 @@ DNS changing in Wire's that aren't your's and DEFACEMENT in other websites or ma
 
 
 Comandos Do Bettercap para ARP & DNS Spoof
+
 NET.RECON ON/OFF	Inicialize a varredura de rede para marcar a máquina em "uso", máquina do invasor e da vítima
+
 NEW.SHOW + set arp.spoof.targets (Ip da Vitima)	Visualize máquinas e defina a máquina da vítima
+
 ARP.SPOOF ON + set dns.spoof.adress (Ip do Atacante)	Habilite o Spoof e defina o IP de redirecionamento do Spoof
+
 set dns.spoof.domains (Dominio Desejado para Trocar)	Definir DOMÍNIO (TROCA POR PHISHING)

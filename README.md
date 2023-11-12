@@ -7,7 +7,6 @@ The PhiSpy is designed to create a range quantity of website's to phish in only 
 Disclaimer: This tool was made for ethical usage only. 
 DNS changing in Wire's that aren't your's and DEFACEMENT in other websites or mail attack's of any type, can lead to prison. Please do not make any victim from this tool.
 
-# End of Introduction
 # Video Showing Tools
 
 https://github.com/0ruguri0/phispytool/assets/150361492/dd29becd-55dd-4c15-a5b8-3131dc44d8c6

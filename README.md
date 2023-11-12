@@ -7,9 +7,12 @@ The PhiSpy is designed to create a range quantity of website's to phish in only 
 Disclaimer: This tool was made for ethical usage only. 
 DNS changing in Wire's that aren't your's and DEFACEMENT in other websites or mail attack's of any type, can lead to prison. Please do not make any victim from this tool.
 
-(https://github.com/0ruguri0/phispytool/assets/150361492/6852e6d2-bc41-431e-aaae-766593b96bc8).
 
 Comandos Do Bettercap para ARP & DNS Spoof
+
+https://github.com/0ruguri0/phispytool/assets/150361492/2220c9fc-54df-444b-a407-94dfec966a69
+
+
 
 NET.RECON ON/OFF	                                    // #Inicialize a varredura de rede para marcar a máquina em "uso", máquina do invasor e da vítima
 

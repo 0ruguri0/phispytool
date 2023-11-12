@@ -1,4 +1,4 @@
-# PhiSpy - Phishing Websites in a WebApp Platform.
+# PhiSpy - Phishing Websites in a WebApp Platform. V.1
 # #Introduction
 PhiSpy is a tool created in HTML/CSS/JAVASCRIPT & PHP to phish servers created for DNS spoofing.
 
